@@ -144,6 +144,7 @@ button {
     
     .nav-link.current {
         position: relative;
+        color: #404bbf;
     }
     
     .nav-link.current::after {
@@ -177,10 +178,12 @@ button {
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     } 
 
+
+
     .nav-link:hover,
     .nav-link:focus,
     .contacts-link:hover,
-    .contacts-link:focus,
+    .contacts-link:focus
     .nav-link.current {
         color: #404bbf;
     }
@@ -269,6 +272,7 @@ button {
     color: #2e2f42;
 }
 
+
 .contacts-menu-mobile {
     font-style: normal;
     display: block;
@@ -294,8 +298,13 @@ button {
     .nav-link-mobile:hover,
     .nav-link-mobile:focus,
     .contacts-link-mobile:hover,
-    .contacts-link-mobile:focus {
+    .contacts-link-mobile:focus,
+    .nav-link-mobile.current {
         color: #404bbf;
+    }
+
+    .mobile-telefon {
+        color: #4d5ae5;
     }
     
 .soc-icon-list-mobile {
